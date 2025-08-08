@@ -10,7 +10,7 @@ def test_vocab_creation(vocab, word_to_idx):
     assert len(word_to_idx) > 0, "Word-to-index mapping is empty."
     print("test_vocab_creation passed.")
 
-def test_sequences(train_sequences, test_sequences):
+def test_sequence(train_sequences, test_sequences):
     """Test if sequences are created properly."""
     assert len(train_sequences) > 0, "Train sequences are empty."
     assert len(test_sequences) > 0, "Test sequences are empty."
